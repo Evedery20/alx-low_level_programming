@@ -1,10 +1,11 @@
 #include "main.h"
-#include <string.h>
+#include <strings.h>
 
 /**
+ *
  * main - Entry point
  *
- * Description: printgs _outchar using putchar prototype
+ * Description: prints _putchar using putchar prototype
  *
  * Return: Always 0 (Success)
  */
@@ -16,7 +17,7 @@ int main(void)
 
 	for (ch = 0; ch < 8; ++ch)
 		_putchar(str[ch]);
-	_putchar( '\n' );
+	_putchar('\n');
 
 	return (0);
 }
