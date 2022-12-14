@@ -2,7 +2,6 @@
 #include <strings.h>
 
 /**
- *
  * main - Entry point
  *
  * Description: prints _putchar using putchar prototype
